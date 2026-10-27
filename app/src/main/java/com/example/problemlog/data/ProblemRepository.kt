@@ -8,7 +8,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.withContext
 
-// single source of truth for problems, in memory for now (room later)
+// single source of truth for problems, in memory for now
 object ProblemRepository {
 
     private val _problems = MutableStateFlow(sampleProblems())
